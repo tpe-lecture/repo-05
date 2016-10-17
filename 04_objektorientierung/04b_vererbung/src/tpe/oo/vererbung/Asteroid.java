@@ -23,7 +23,7 @@ public class Asteroid extends Sprite{
     public Asteroid(Board board, Point startPoint) {
 // TODO: Einkommentieren
         super(board, startPoint, BoundaryPolicy.NONE,
-                new ImagePack(ImageBase.loadImage("assets/asteroid")));
+                new ImagePack(ImageBase.loadImage("assets/10c")));
         velocity.setVelocity(Direction.NORTHEAST, 0.2);
     }
 }

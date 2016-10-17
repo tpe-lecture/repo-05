@@ -15,7 +15,7 @@ public class AlienSprite extends AnimatedSprite{
 // TODO: Von AnimatedSprite ableiten
 
     /** Geschwindigkeit des Alien X-Richtung. */
-    private static final int ALIEN_SPEED = 9;
+    private static final int ALIEN_SPEED = 2;
 
     /**
      * Neues Alien anlegen.

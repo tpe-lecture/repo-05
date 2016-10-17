@@ -11,6 +11,6 @@ public class AlienImage extends AnimatedImage {
      * Neues Bild eines Alien anlegen.
      */
     public AlienImage() {
-        super(50, 5, "assets/spike_fist_move_strip5");
+        super(50, 9, "assets/professor_left");
     }
 }
