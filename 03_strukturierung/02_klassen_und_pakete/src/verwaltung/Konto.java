@@ -1,5 +1,4 @@
-
-
+package verwaltung;
 /**
  * Ein Konto in der Buchhaltung der Firma.
  */

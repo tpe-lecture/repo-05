@@ -1,4 +1,5 @@
-
+package artikelkennziffern;
+import stammdaten.Adresse;
 
 /**
  * Lieferant.

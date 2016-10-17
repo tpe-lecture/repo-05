@@ -1,5 +1,4 @@
-
-
+package artikelkennziffern;
 /**
  * Ein Artikel aus dem Angebot der Firma.
  */

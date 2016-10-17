@@ -1,3 +1,5 @@
+package artikelkennziffern;
+
 /**
  * Eine Position der Bestellung.
  */

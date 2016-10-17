@@ -1,3 +1,6 @@
+package artikelkennziffern;
+import stammdaten.Kunde;
+
 /**
  * Eine Bestellung.
  */

@@ -1,4 +1,4 @@
-
+package verwaltung;
 
 /**
  * Sammlung von Konten und Methoden, um Buchungen durchzuführen.
