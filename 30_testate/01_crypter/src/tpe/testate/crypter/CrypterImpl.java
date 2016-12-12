@@ -7,8 +7,7 @@ public class CrypterImpl implements Crypter {
 	 * werden diese in Kleinbuchstaben umgewandelt. Ungültige Zeichen werden
 	 * ignoriert und nicht in den verschlüsselten Text übernommen.
 	 *
-	 * @param input
-	 *            Text, der verschlüsselt werden soll.
+	 * @param input Text, der verschlüsselt werden soll.
 	 * @return Verschlüsselter Text.
 	 */
 	@Override
