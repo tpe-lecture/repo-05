@@ -25,6 +25,7 @@ public class CrypterImpl implements Crypter {
 			if (!(lowerC.charAt(i) >= 'a' && lowerC.charAt(i) <= 'z'
 					|| lowerC.charAt(i) >= '0' && lowerC.charAt(i) <= '9' || lowerC.charAt(i) == ' '))
 				i++;
+			
 			switch (lowerC.charAt(i)) {
 			case 'e':
 				c = '3';
