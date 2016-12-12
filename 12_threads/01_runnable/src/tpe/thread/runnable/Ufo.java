@@ -5,12 +5,12 @@ import java.awt.Point;
 
 import de.smits_net.games.framework.board.Board;
 import de.smits_net.games.framework.image.SimpleImage;
+import de.smits_net.games.framework.sprite.Direction;
 
 /**
  * Ein Ufo.
  */
-public class Ufo extends SimpleImage {
-// TODO: Runnable implementieren
+public class Ufo extends SimpleImage implements Runnable{
 
     /** X-Position des Ufos. */
     private int x;
@@ -48,6 +48,14 @@ public class Ufo extends SimpleImage {
      */
     public void draw(Graphics g) {
         super.draw(g, new Point(x, y), null);
+    }
+
+    @Override
+    public void run() {
+        while(x < board.getWidth())
+            x++;
+        if(Thread.currentThread().isInterrupted())
+            ;
     }
 
     // TODO: run-Methode schreiben in der Methode:

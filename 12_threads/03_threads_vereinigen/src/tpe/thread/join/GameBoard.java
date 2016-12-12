@@ -24,7 +24,7 @@ public class GameBoard extends Board {
         public void run() {
 
             // TODO: Threads vereinigen
-
+            
             // TODO: Ufos sprengen, wenn alle Threads zu Ende gekommen sind
         }
     }
